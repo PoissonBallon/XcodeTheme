@@ -2,7 +2,7 @@
 
 This repository contains the Xcode theme that I use. Feel free to use it or modify it to your liking 👍
 
-* 📝 **FONT** : Adobe's Source Code Pro [github.com/adobe-fonts/source-code-pro](https://github.com/adobe-fonts/source-code-pro)
+* 🅰️ **FONT** : Adobe's Source Code Pro [github.com/adobe-fonts/source-code-pro](https://github.com/adobe-fonts/source-code-pro)
 * 🎨 **Color** : Atome One dark with some change [github.com/atom/one-dark-syntax](https://github.com/atom/one-dark-syntax)
 
 ## Preview
