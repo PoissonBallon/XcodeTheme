@@ -1,7 +1,11 @@
-# 🎨 My Xcode theme - Sundell's Colors
+# 🎨 My Xcode theme
 
 This repository contains the Xcode theme that I use. Feel free to use it or modify it to your liking 👍
 
+* 📝 **FONT** : Adobe's Source Code Pro [github.com/adobe-fonts/source-code-pro](https://github.com/adobe-fonts/source-code-pro)
+* 🎨 **Color** : Atome One dark with some change [github.com/atom/one-dark-syntax](https://github.com/atom/one-dark-syntax)
+
+## Preview
 ![](Preview.png)
 
 ## Installing using Marathon
@@ -16,33 +20,8 @@ $ cd Marathon && make
 
 2. Run the install script which will install [Adobe's Source Code Pro](https://github.com/adobe-fonts/source-code-pro) font & this Xcode theme for you:
 ```
-marathon run johnsundell/xcodetheme
+marathon run poissonballon/xcodetheme
 ```
 
-## Installing manually
-
-You can also choose to do things manually if you want:
-
-1. Clone this repo:
-```
-$ git clone https://github.com/johnsundell/xcodetheme.git
-```
-
-2. Create a folder at this path if it doesn't exist already:
-```
-~/Library/Developer/Xcode/UserData/FontAndColorThemes
-```
-
-3. Copy the file `SundellsColors.xccolortheme` into the above folder.
-
-4. Download the latest release of Source Code Pro from [its repo](https://github.com/adobe-fonts/source-code-pro).
-
-5. Unzip the font archive and move the files in the `TTF` folder to `~/Library/Fonts`.
-
-6. Should've used the install script, right? 😉
-
-## Attributions
-
-This Xcode theme is the result of years of tweaks and modifications to some version of a "Solarized" theme. I have no idea where I got the
-original material for this theme from, but if you recognize some aspect of this theme as coming from something you made, feel free to open
-an issue and I'll gladly add attributions to you 🙂
+## Inspiration
+* This repository largely (completely) inspired by [johnsandall's one](https://github.com/JohnSundell/XcodeTheme) thanks to him.
