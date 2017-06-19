@@ -25,7 +25,7 @@ if !fontsFolder.containsFile(named: "SourceCodePro-Regular.ttf") {
 
 print("🎨  Downloading Xcode theme...")
 
-let themeURL = URL(string: "https://raw.githubusercontent.com/JohnSundell/XcodeTheme/master/SundellsColors.xccolortheme")!
+let themeURL = URL(string: "https://raw.githubusercontent.com/PoissonBallon/XcodeTheme/master/Poisson's%20One%20Dark.dvtcolortheme")!
 let themeData = try Data(contentsOf: themeURL)
 
 print("🎨  Installing Xcode theme...")
